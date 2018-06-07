@@ -1,0 +1,56 @@
+.App {
+    /*text-align: center;*/
+}
+
+.App-header {
+    background-color: rgb(60, 64, 215);
+    line-height: 50px;
+    height: 50px;
+    color: #fff2fa;
+}
+
+/*.App-header-button-bar > button{*/
+/*background-color: rgb(215, 192, 67);*/
+/*}*/
+
+.App-title {
+    padding-left: 20px;
+    font-size: 1.5em;
+    float: left;
+    display: inline;
+    padding-top: 10px;
+    vertical-align: middle;
+}
+.App-title-body{
+    text-align: center;
+    color: rgb(60, 64, 215);
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.App-intro {
+    font-size: large;
+}
+
+.App-header-button-bar {
+    float: right;
+    padding-right: 20px;
+    vertical-align: middle;
+}
+
+.App-header-button-bar > button {
+    margin-right: 5px;
+}
+
+form{
+    padding-top: 20px;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
